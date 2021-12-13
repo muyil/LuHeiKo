@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/temperatureFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_device_thermostat_24"
+        android:title="@string/temperature"/>
+    <item
+        android:id="@+id/humidityFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_water_drop_24"
+        android:title="@string/water"/>
+
+    <item
+        android:id="@+id/doorAccesFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_sensor_door_24"
+        android:title="@string/doorAccess"/>
+
+</menu>
